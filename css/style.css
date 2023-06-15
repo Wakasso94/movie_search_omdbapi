@@ -9,22 +9,22 @@ body {
     z-index: 1;
 }
 
-#bg-img-watchlist{
+#bg-img-watchlist {
     display: flex;
     background: black;
     overflow: hidden;
     background: #1c0031;
-    background: -webkit-linear-gradient(rgba(0, 6, 55, 0.8), rgba(23, 0, 25, 0.8)), url(img/bg2.jpg);
+    background: -webkit-linear-gradient(rgba(0, 6, 55, 0.8), rgba(23, 0, 25, 0.8)), url(../img/bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#bg-img-container{
+#bg-img-container {
     display: flex;
     background: black;
     overflow: hidden;
     background: #1c0031;
-    background: -webkit-linear-gradient(rgba(31, 0, 0, 0.8), rgba(0, 21, 0, 0.8)), url(img/bg1.jpg);
+    background: -webkit-linear-gradient(rgba(31, 0, 0, 0.8), rgba(0, 21, 0, 0.8)), url(../img/bg1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -37,11 +37,11 @@ body {
     margin: 100px auto;
     overflow: hidden;
     border-radius: 8px;
-    border: 2px solid rgba(245, 245, 245, 0.497);
+    border: 2px solid rgba(101, 101, 101, 0.497);
 }
 
 header {
-    background-image: url(img/header.png);
+    background-image: url(../img/header.png);
     height: 208px;
     display: flex;
     flex-direction: column;
@@ -116,7 +116,7 @@ header {
 
 #search-input::before {
     content: "";
-    background-image: url('img/Search.svg');
+    background-image: url('../img/Search.svg');
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 20px 20px;
