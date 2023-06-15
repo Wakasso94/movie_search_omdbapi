@@ -8,6 +8,7 @@ searchForm.addEventListener('submit', function (event) {
     event.preventDefault();
     const query = inputField.value;
     findMovie(query);
+    console.log(findMovie(query));
 });
 
 // Function to display movies on the page
