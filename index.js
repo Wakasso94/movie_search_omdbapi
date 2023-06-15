@@ -5,7 +5,7 @@ const startExplore = document.getElementById('start-explore');
 
 // Add event listener to the search form
 searchForm.addEventListener('submit', function (event) {
-    // event.preventDefault();
+    event.preventDefault();
     const query = inputField.value;
     findMovie(query);
 });
