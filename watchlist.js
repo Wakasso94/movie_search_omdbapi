@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', async function () {
             const movieRating = movieContainer.querySelector('#movie-rating');
 
             // Fetch additional details for the movie
-            const movieDetailsUrl = `http://www.omdbapi.com/?apikey=${apiKey}&i=${movie.imdbID}`;
+            const movieDetailsUrl = `https://www.omdbapi.com/?apikey=${apiKey}&i=${movie.imdbID}`;
             const detailsRes = await fetch(movieDetailsUrl);
             const detailsData = await detailsRes.json();
 

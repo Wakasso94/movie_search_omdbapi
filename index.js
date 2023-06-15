@@ -44,7 +44,7 @@ function displayMovies(movies) {
         });
 
         const apiKey = '27413394';
-        const movieDetailsUrl = `http://www.omdbapi.com/?apikey=${apiKey}&i=${movie.imdbID}`;
+        const movieDetailsUrl = `https://www.omdbapi.com/?apikey=${apiKey}&i=${movie.imdbID}`;
         const detailsRes = await fetch(movieDetailsUrl);
         const detailsData = await detailsRes.json();
 
@@ -62,7 +62,7 @@ function displayMovies(movies) {
 // Function to find movies
 async function findMovie(query) {
     const apiKey = '27413394';
-    const apiUrl = `http://www.omdbapi.com/?apikey=${apiKey}&s=${encodeURIComponent(query)}`;
+    const apiUrl = `https://www.omdbapi.com/?apikey=${apiKey}&s=${encodeURIComponent(query)}`;
     const res = await fetch(apiUrl);
     const data = await res.json();
 
